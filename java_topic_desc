@@ -1,0 +1,48 @@
+Java Swings 
+Description
+Do you want to develop a standalone application without any dependency on web development? Then using Java Swings is the right choice for it. 
+Swing is a part of Java Foundation Classes (JFC) which helps in creating a standalone application i.e. window-based application which acts as a replacement for Abstract Windowing Toolkit (AWT). 
+Swings are
+1.	Platform Independent
+2.	Uses MVC pattern
+3.	Provides rich control of components while comparing with AWT
+4.	Light weighted
+5.	Supports plugins look and feel
+Assignment
+Develop a student management system with separate login for students and teacher where the student can 
+1.	view/insert/update/delete their personal information
+2.	View their marks and percentage
+while the teachers can 
+1.	insert/update the student mark details
+2.	Register a student and give him the login credentials
+Java JPA
+Description
+Java Persistence API (JPA) is an open source which has the collection of best of ideas from existing persistence technologies like Hibernate, Toplink and JDO resulted in a standardized specification to build a persistence layer. It helps in storing the vast of amount of data into database where JPA Provider framework helps in easy interaction with the database instance
+
+JDBC
+Description
+Java DataBase Connectivity is a Java Standard API which is used to create independent connections between a variety databases and Java Programming language. The five main steps used in creating connection for any Java application with DB is as follows
+1.	Register the driver class
+2.	Creating connection
+3.	Creating statement
+4.	Executing queries
+5.	Closing connection
+Assignment
+Electricity Bill Management System
+Java Up casting and down casting
+Permitting an object of sub class type to be treated as a super class type is called up casting while the down casting is vice versa.
+Up Casting	Down Casting
+Casting to a super type	Casting to a sub type
+Super casting is always allowed	Sub casting undergoes type check and throws ClassCastException if required
+Ex : Vehicle v = new Car()	Ex : Car c = (Car) new Vehicle ()
+
+Assignment
+Perform both the types of casting using Number, integer, float and double data types.
+Java Getter and Setter
+Description
+Getter – As the name suggests, a getter method gets the value of the member variable which is declared as private
+Setter – A setter method sets the value of a member variable
+The main reason to use getter and setter methods are to implement Information Hiding to have tight coupling so that the classes doesn’t reveal unnecessary data to the outside world.
+Assignment
+Create a library management system implementing book lending and displaying the inventory as and when a book is issued/returned. Make sure you use the getter and setter methods while storing /retrieving any data about the book
+
